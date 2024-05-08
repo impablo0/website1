@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Website 1 - Home</title>
+</head>
+<body>
+    <div style="background-image: url('./background.png'); background-color: #f2f4f4;">
+        <header class="navbar">
+            <div class="navbar-logo">
+                <a class="logo"></a>
+                <p>Website 1</p>
+            </div>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="/" style="text-decoration: underline;">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="resources">Resources</a></li>
+                        <li id="hamburger-menu-item"><a href="#">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <div class="hamburger-menu-line"></div>
+                    <div class="hamburger-menu-line"></div>
+                    <div class="hamburger-menu-line"></div>
+                </div>
+            </nav>
+            <button>Get Started</button>
+        </header>
+        <div class="large-container">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Website 1 - Contact</title>
+</head>
+<body>
+    <div style="background-image: url('./background.png'); background-color: #f2f4f4;">
+        <header class="navbar">
+            <div class="navbar-logo">
+                <a class="logo"></a>
+                <p>Website 1</p>
+            </div>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="contact" style="text-decoration: underline;">Contact</a></li>
+                        <li><a href="resources">Resources</a></li>
+                        <li id="hamburger-menu-item"><a href="#" onclick="getStarted()">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <div class="hamburger-menu-line"></div>
+                    <div class="hamburger-menu-line"></div>
+                    <div class="hamburger-menu-line"></div>
+                </div>
+            </nav>
+            <button onclick="getStarted()">Get Started</button>
+        </header>
+        <div class="large-container">
+            <div class="column">
+            <h2>Contact us</h2>
+            <p>Use the contact form to contact us or email us</p>
+            <p>at <b style="color:#31c48d">support@example.com</b></p>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <div class="contact-form box">
+                        <div class="contact-form box-item">
+                            <div class="contact-form group">
+                                <p>First name</p>
+                                <input type="text" id="contact-us-first-name" class="contact-form input">
+                                <p>Last name</p>
+                                <input type="text" id="contact-us-last-name" class="contact-form input">
+                                <p>Email</p>
+                                <input type="text" id="contact-us-email" class="contact-form input">
+                                <p>How can we help you?</p>
+                                <textarea name="" id="contact-us-text" cols="30" rows="10"></textarea>
+                            </div>
+                            <button class="contact-form button" onclick="contactSupport()">Get in touch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

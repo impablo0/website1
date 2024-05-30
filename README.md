@@ -11,7 +11,7 @@
 
 ## Setup
 - install modules
-```properties
+```shell
 npm install body-parser
 npm install express
 npm install path

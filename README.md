@@ -3,12 +3,15 @@
 ## Features
 - Working contact form page
 - Node JS server
-<br>
+
 ## To do
 - Home
 - About
 - Resources
-<br>
+
+
+
+ 
 ## Setup
 - install modules
 ```shell

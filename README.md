@@ -9,3 +9,15 @@
 - About
 - Resources
 
+## Setup
+- install modules
+```shell
+npm install body-parser
+npm install express
+npm install path
+```
+
+- run the server
+- ```shell
+node .
+```

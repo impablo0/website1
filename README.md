@@ -18,6 +18,6 @@ npm install path
 ```
 
 - run the server
-- ```shell
+```shell
 node .
 ```
